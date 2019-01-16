@@ -5,10 +5,10 @@ import { CustomersRoutingModule } from './customers-routing.module';
 import { CustomersComponent } from './customers.component';
 
 @NgModule({
-  declarations: [CustomersComponent],
   imports: [
     CommonModule,
     CustomersRoutingModule
-  ]
+  ],
+  declarations: [CustomersComponent]
 })
 export class CustomersModule { }

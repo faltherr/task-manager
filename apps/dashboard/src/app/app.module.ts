@@ -1,14 +1,15 @@
-import { MaterialModule } from '@workshop/material';
-import { BrowserModule } from '@angular/platform-browser';
+import { CustomersModule } from './customers/customers.module';
+import { ProjectsModule } from './projects/projects.module';
 import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { RouterModule } from '@angular/router';
+import { NxModule } from '@nrwl/nx';
+import { MaterialModule } from '@workshop/material';
 
 import { AppComponent } from './app.component';
-import { NxModule } from '@nrwl/nx';
-import { RouterModule } from '@angular/router';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeModule } from './home/home.module';
-import { ProjectsModule } from './projects/projects.module';
-import { CustomersModule } from './customers/customers.module';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [AppComponent],

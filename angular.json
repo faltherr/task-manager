@@ -48,14 +48,7 @@
               "aot": true,
               "extractLicenses": true,
               "vendorChunk": false,
-              "buildOptimizer": true,
-              "budgets": [
-                {
-                  "type": "initial",
-                  "maximumWarning": "2mb",
-                  "maximumError": "5mb"
-                }
-              ]
+              "buildOptimizer": true
             }
           }
         },
@@ -109,9 +102,8 @@
       }
     },
     "dashboard-e2e": {
-      "root": "apps/dashboard-e2e",
+      "root": "apps/dashboard-e2e/",
       "projectType": "application",
-      "prefix": "",
       "architect": {
         "e2e": {
           "builder": "@angular-devkit/build-angular:protractor",
