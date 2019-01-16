@@ -1,4 +1,4 @@
-# Angular Core Workshop
+# Angular Task Manager Project
 
 We are going to use the Angular CLI and NRWL Extensions extensively in the workshop to streamline development and free us up to focus on core concepts.
 
